@@ -1,0 +1,31 @@
+body {
+  background: url(../imgs/Rectangle.svg) no-repeat;
+}
+div {
+  margin-left: 25rem;
+  display: flex; 
+  align-items: center; 
+  width: 30rem
+}
+h1 {
+  font-size: large; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: gray
+}
+input {
+  height: 30px; 
+  font-size: large; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: gray;
+}
+label {
+  margin: 5px;
+  font-size: large; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: gray
+}
+button {
+  height: 30px; 
+  background-color: transparent; 
+  border: 1px solid gray; 
+}

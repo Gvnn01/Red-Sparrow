@@ -1,0 +1,25 @@
+{
+  "name": "url_shorter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13",
+    "nunjucks": "^3.2.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
