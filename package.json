@@ -12,19 +12,25 @@
     "devNode": "nodemon index"
   },
   "dependencies": {
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
+    "@prisma/client": "^5.13.0",
     "axios": "^0.21.1",
+    "bson": "^6.7.0",
     "config": "^3.3.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fomantic-ui": "^2.9.3",
+    "fomantic-ui-css": "^2.9.3",
     "mongoose": "^5.10.13",
     "nunjucks": "^3.2.2",
+    "nuxt": "^3.11.2",
+    "sass": "^1.76.0",
     "shortid": "^2.2.16",
-    "valid-url": "^1.0.9"
+    "valid-url": "^1.0.9",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "prisma": "^5.13.0"
   }
 }
