@@ -1,7 +1,34 @@
-# Red Sparrow
+## Major adjustments
 
-Encurtador de URLs desenvolvido em javascript com MongoDB<br/>
--Configurado para ser inicializado via NodeJs
-![Sem Título-1](https://user-images.githubusercontent.com/60143476/100095380-25601700-2e39-11eb-8613-69cbf65c5fe8.png)
-<br/><br/>
--Em config/default, é necessario especificar a URI do cluster MongoDB a ser utilizada (mongoURI) e a URL base de onde a aplicação ficara hospedada (localhost:3000, localhost:5000, etc)
+migrated project to `Nuxt.js`, database temporarily changed to `MySql`
+
+## Configuration
+
+Create a `.env` file, with a `BASEURL` and a `DATABASE_URL` variable, just like is in the `.env.example`
+
+## Setup
+
+Make sure to install the dependencies:
+
+```npm install```
+
+Run the prisma migrations
+
+```npx init```
+
+```npx prisma migrate dev --name init```
+
+Start the developmen server on `http://localhost:3000`: 
+
+```npm run dev```
+
+## How to use
+
+Put the URL into the input;
+
+Click APPLY;
+
+The new URl will redirect to the previous registered URL;
+
+
+![Sem título](https://github.com/Gvnn01/Red-Sparrow/assets/60143476/4232a82d-536e-4e27-8e25-4262a8e2ef1c)
