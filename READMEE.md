@@ -1,75 +1,31 @@
-# Nuxt 3 Minimal Starter
+## Major adjustments
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+migrated project to `Nuxt.js`, database temporarily changed to `MySql`
+
+## Configuration
+
+Create a `.env` file, with a `BASEURL` and a `DATABASE_URL` variable, just like is in the `.env.example`
 
 ## Setup
 
 Make sure to install the dependencies:
 
-```bash
-# npm
-npm install
+```npm install```
 
-# pnpm
-pnpm install
+Run the prisma migrations
 
-# yarn
-yarn install
+```npx init```
 
-# bun
-bun install
-```
+```npx prisma migrate dev --name init```
 
-## Development Server
+Start the developmen server on `http://localhost:3000`: 
 
-Start the development server on `http://localhost:3000`:
+```npm run dev```
 
-```bash
-# npm
-npm run dev
+## How to use
 
-# pnpm
-pnpm run dev
+Put the URL into the input;
 
-# yarn
-yarn dev
+Click APPLY;
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The new URl will redirect to the previous registered URL;

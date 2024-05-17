@@ -11,8 +11,17 @@
   
 </script>
 
-<style>
+<style lang="scss">
+  body {
+    background-color: black;
+  }
   .header {
-    width: 200px;
+    width: 100vw;
+    height: 300px;
+    background-color: #fff;
+    // background: url('../public/imgs/header_background.jpg') center center / cover no-repeat;
+    img {
+      width: 200px;
+    }
   }
 </style>
